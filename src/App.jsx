@@ -131,7 +131,7 @@ function App() {
         toast.error("Logout failed: " + (error.message || "Please try again"));
       }
     }
-  }, []);
+  };
 
   // Don't render routes until initialization is complete
   if (!isInitialized) {
